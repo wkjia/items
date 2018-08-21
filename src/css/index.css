@@ -20,13 +20,13 @@ body { width: 100%; height: 100%; }
 
 #theme .container .h-list li a { display: block; color: white; font-size: 14px; padding-left: 20px; padding-top: 41px; }
 
-#theme .user { width: 293px; height: 162px; background: #fff; position: fixed; right: 60px; top: 95px; text-align: center; line-height: 162px; }
+#theme .user { width: 293px; height: 162px; background: #fff; position: fixed; right: 60px; top: 95px; text-align: center; line-height: 162px; display: none; }
 
 #theme .user .san { width: 0; height: 0; border: 10px solid transparent; border-left-color: #fff; position: absolute; right: -15px; top: 7px; }
 
 #theme .user .tubiao { padding-top: 10px; display: block; width: 25px; height: 25px; }
 
-#theme .sign { width: 293px; position: fixed; right: 60px; top: 226px; padding-left: 30px; }
+#theme .sign { width: 293px; position: fixed; right: 60px; top: 226px; padding-left: 30px; display: none; }
 
 .brand { height: 388px; width: 100%; padding-left: 175px; padding-right: 108px; border-right: 14px solid transparent; background-clip: padding-box,border-box; background-origin: padding-box,border-box; background-image: linear-gradient(#fff, #fff), linear-gradient(to left, #EAEAEA, #ccc); border-bottom: 1px solid #EAEAEA; }
 

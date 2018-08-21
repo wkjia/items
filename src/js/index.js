@@ -44,7 +44,10 @@
         var max_width =  $('#theme').outerWidth(true);
         var right_d = max_width - distance -9;
         
-        setInterval()
+        // 绑定事件
+        $('.gr').on('mouseover',$('.i_c1'),function(){
+                
         })
+    })
 
 })();
