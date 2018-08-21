@@ -6,36 +6,36 @@ let rename = require('gulp-rename');
 let pump = require('pump');
 let babel = require('gulp-babel');
 let sass = require('gulp-sass');
+var browserSync = require('browser-sync');
 
+// gulp.task('compressJs',cb=>{
+// 	pump([
+// 		// 匹配文件
+// 		gulp.src('./src/js/*.js'),
 
-gulp.task('compressJs',cb=>{
-	pump([
-		// 匹配文件
-		gulp.src('./src/js/*.js'),
+// 		// 合并文件
+// 		concat('page.js',{newLine:';'}),
 
-		// 合并文件
-		concat('page.js',{newLine:';'}),
+// 		// 输出到硬盘
+// 		gulp.dest('./src/dist'),
 
-		// 输出到硬盘
-		gulp.dest('./dist'),
+// 		// 转换
+// 		babel({
+//             presets: ['env']
+//         }),
 
-		// 转换
-		babel({
-            presets: ['env']
-        }),
+// 		// 压缩
+// 		uglify(),
 
-		// 压缩
-		uglify(),
+// 		// 重命名
+// 		rename({
+// 			suffix: ".min",//后缀名
+// 		}),
 
-		// 重命名
-		rename({
-			suffix: ".min",//后缀名
-		}),
-
-		// 输出到硬盘
-		gulp.dest('./dist')
-	],cb);
-});
+// 		// 输出到硬盘
+// 		gulp.dest('./src/dist')
+// 	],cb);
+// });
 
 gulp.task('compileSass',function(){
 	// 执行任务时，会执行这里的代码
@@ -62,7 +62,7 @@ gulp.task('autoSass',function(){
 
 // 自动刷新页面
 // 文件有修改，自动刷新页面
-var browserSync = require('browser-sync');
+
 
 gulp.task('server',function(){
 	// 启动一个自动刷新的服务器
@@ -71,16 +71,16 @@ gulp.task('server',function(){
 		// server:'./src',
 
 		// 指定端口
-		port:1122,
+		port:1800,
 
 		// 代理服务器
 		// 用browserSync代理php服务器
 		// 	* 识别php
 		// 	* 自动刷新
-		proxy:'http://localhost:18042',
+		proxy:'http://localhost:1800',
 
 		// 监听文件修改
-		files:['./src/**/*.html','./src/css/*.css']
+		files:['./src/**/*.html','./src/css/*.css'],
 	});
 
 	// 监听sass修改

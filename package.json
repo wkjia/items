@@ -1,11 +1,8 @@
 {
-  "name": "day7-4gulp",
+  "name": "items",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "directories": {
-    "doc": "doc"
-  },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
@@ -25,6 +22,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wkjia",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkjia/items.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkjia/items/issues"
+  },
+  "homepage": "https://github.com/wkjia/items#readme"
 }
