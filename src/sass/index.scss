@@ -19,7 +19,8 @@ body{width:100%;height:100%;}
             }
         }
     }
-    .user{width:293px;height:162px;background: #fff;position:fixed;right:60px;top:95px;text-align:center;line-height: 162px;display:none;
+    .u-box{width:293px;height:162px;position:fixed;right:36px;top:95px;display:none;}
+    .user{width:293px;height:162px;background: #fff;position:fixed;right:60px;top:95px;text-align:center;line-height: 162px;display:none;border:1px solid #ccc;box-shadow:-5px 5px 5px #ccc;
         .san{width:0;height:0;border:10px solid transparent;border-left-color:#fff;position:absolute;right:-15px;top:7px;}
         .tubiao{padding-top:10px;display:block;width:25px;height:25px;}
 
@@ -89,11 +90,20 @@ body{width:100%;height:100%;}
 
 }
 
-.brand_c{padding-left:175px;padding-right:108px;width:100%;border-right:14px solid transparent;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(#fff,#fff),linear-gradient(to left,#EAEAEA,#ccc);
+.brand_c{height:490px;padding-left:175px;padding-right:108px;width:100%;border-right:14px solid transparent;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(#fff,#fff),linear-gradient(to left,#EAEAEA,#ccc);
         .container{width:1090px;margin:0 ;padding:0px;
             .title{height:84px;text-align:center;
-                span{height:84px;line-height: 84px;font-size:16px;display:block;}
+                span{height:84px;line-height:84px;font-size:16px;display:block;}
             }
+            .mbl{height:323px;overflow:hidden;
+                .mbt{height:200px;width:6000px;
+                    li{float:left;
+
+                        img{display:block;height:160px;width:260px;margin-right:15px;}
+            }
+                    }
+        }
+            
             .blt{height:340px;padding:0;margin:0px;}
             .footer{height:66px;text-align:center;
                     span{font-size:12px;display:block;border:1px solid #f90;height:40px;width:122px;margin:0 auto;line-height: 40px;border-radius:8px;}
@@ -126,6 +136,13 @@ body{width:100%;height:100%;}
                 }
             }
     }
+     .l-box{width:293px;height:162px;position:fixed;right:36px;top:450px;display:none;}
+    .luser{width:293px;height:162px;background: #fff;position:fixed;right:60px;top:450px;text-align:center;line-height: 162px;display:none;border:1px solid #ccc;box-shadow:-5px 5px 5px #ccc;
+        .lsan{width:0;height:0;border:10px solid transparent;border-left-color:#fff;position:absolute;right:-15px;top:7px;}
+        .tubiao{padding-top:10px;display:block;width:25px;height:25px;}
+
+    }
+    .lsign{width:293px;position:fixed;right:60px;top:580px;padding-left:30px;display:none;}
 }
 .last{padding-left:175px;padding-right:108px;width:100%;border-right:14px solid transparent;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(#fff,#fff),linear-gradient(to left,#EAEAEA,#ccc);background:#F1F1F1;
      .container{width:1090px;margin:0 ;padding:0px;height:216px;
@@ -168,6 +185,9 @@ body{width:100%;height:100%;}
                 i{display:block;width:22px;height:26px;background:url(../img/script.png) no-repeat center;background-position:-150px 0 ;}
        } 
             .i_c5{top:520px;right:0;text-align:center;font-size:10px;background:#FF5C00;height:80px;
+                    .consult{width:83px;height:36px;position:absolute;top:0px;right:50px;background: #fff;text-align:center;line-height: 36px;display:none;border:1px solid #ccc;box-shadow:-5px 5px 5px #ccc;
+                    }
+                    &:hover .consult{display:block;}
                 i{display:block;width:22px;height:26px;background::#F90 url(../img/script.png) no-repeat center;background-position:-200px 0 ;
                     margin-top:5px;
                 }
@@ -177,4 +197,7 @@ body{width:100%;height:100%;}
                 i{display:block;width:22px;height:26px;background:url(../img/script.png) no-repeat center;background-position:-250px 0 ;}
        }
 }
+}
+.leftimg{width:125px;text-align:center;position:fixed;left:0px;bottom:15px;z-index:1000000;
+        .sx{line-height: 17px;width:17px;height: 17px;border:1px solid;border-radius:50%;float:right;}
 }

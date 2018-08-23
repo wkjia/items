@@ -1,0 +1,67 @@
+.container { width: 1000px; margin: 0 auto; }
+
+.top_h { background: linear-gradient(#FDFBFD, #EDEBEE); border-bottom: 1px solid #D7D6D7; }
+
+.top_h .container { box-sizing: border-box; height: 40px; padding-top: 5px; }
+
+.top_h .container .top_l li { float: left; font-size: 14px; padding: 9px 21px 0 21px; height: 26px; border-right: 1px solid #ccc; }
+
+.top_h .container .top_l li:nth-child(1) { background: #fff; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
+
+.top_h .container .top_l li a { color: #4D3333; font-weight: bold; }
+
+.top_h .container .top_l li:nth-child(1) a { color: #f60; }
+
+.top_h .container .top_l li:nth-child(2) a:hover { color: #f60; }
+
+.top_h .container .top_l li:nth-child(3) a:hover { color: #f60; }
+
+.top_h .container .top_r { overflow: hidden; }
+
+.top_h .container .top_r li { float: left; font-size: 14px; font-weight: none; }
+
+.top_h .container .top_r li:first-child > span { padding-right: 10px; }
+
+.top_h .container .top_r li a { padding: 9px 0 12px 0; height: 14px; display: inline-block; text-align: center; }
+
+.top_h .container .top_r li a span { border-right: 1px solid #ccc; display: inline-block; padding: 0 7px; }
+
+.top_h .container .top_r li a i { width: 14px; display: inline-block; height: 14px; }
+
+.title { border-bottom: 1px solid #D7D6D7; }
+
+.title .container { height: 107px; }
+
+.title .container h1 { text-indent: -10000px; }
+
+.register { background: #ECECEC; padding-top: 20px; padding-bottom: 41px; }
+
+.register .container .qieh { overflow: hidden; }
+
+.register .container .qieh li { height: 39px; float: left; width: 242px; background: #F8F8F8; border: 1px solid #ccc; }
+
+.register .container .qieh li:nth-child(1) { margin-left: 177px; text-align: center; line-height: 39px; color: #f90; }
+
+.register .container .qieh li:nth-child(2) { margin-left: 10px; text-align: center; line-height: 39px; }
+
+.register .container .zc { height: 532px; background: #fff; border: 1px solid #ccc; }
+
+.register .container .dl { height: 432px; background: #fff; border: 1px solid #ccc; display: none; }
+
+.footer .container { height: 186px; }
+
+.footer .container ul { text-align: center; margin-top: 30px; margin-bottom: 10px; }
+
+.footer .container ul li { display: inline-block; }
+
+.footer .container ul li a { color: black; font-size: 14px; }
+
+.footer .container .tfc_copyright { text-align: center; }
+
+.footer .container .tfc_copyright span { margin-bottom: 10px; font-size: 14px; }
+
+.footer .container .license { text-align: center; height: 47px; }
+
+.footer .container .license img { height: 47px; }
+
+.footer .container .d_footer { font-size: 14px; text-align: center; }
