@@ -40,11 +40,67 @@
 
 .register .container .qieh li { height: 39px; float: left; width: 242px; background: #F8F8F8; border: 1px solid #ccc; }
 
-.register .container .qieh li:nth-child(1) { margin-left: 177px; text-align: center; line-height: 39px; color: #f90; }
+.register .container .qieh li:nth-child(1) { margin-left: 177px; text-align: center; line-height: 39px; position: relative; background: #fff; }
 
-.register .container .qieh li:nth-child(2) { margin-left: 10px; text-align: center; line-height: 39px; }
+.register .container .qieh li:nth-child(1) a { color: #F60; }
 
-.register .container .zc { height: 532px; background: #fff; border: 1px solid #ccc; }
+.register .container .qieh li:nth-child(1) .icon-zhuce { display: block; width: 30px; height: 30px; position: absolute; z-index: 10000; left: 76px; top: 0px; color: #F60; }
+
+.register .container .qieh li:nth-child(2) { margin-left: 10px; text-align: center; line-height: 39px; position: relative; }
+
+.register .container .qieh li:nth-child(2) .icon-denglu { display: block; width: 30px; height: 30px; position: absolute; z-index: 10000; left: 76px; top: 0px; }
+
+.register .container .zc { height: 532px; background: #fff; border: 1px solid #ccc; padding-top: 40px; }
+
+.register .container .zc .zc_l { width: 440px; float: left; text-align: right; }
+
+.register .container .zc .zc_l .typeahead { display: inline-block; width: 275px; height: 33px; border: 1px solid #ccc; }
+
+.register .container .zc .zc_l li { margin-bottom: 28px; font-size: 14px; font-weight: none; position: relative; }
+
+.register .container .zc .zc_l li .p1 { position: absolute; top: 35px; left: 162px; width: 190px; height: 22px; background: #FFF0C0; border-radius: 3px; font-size: 12px; color: #FF0000; text-align: center; line-height: 22px; display: none; }
+
+.register .container .zc .zc_l li .p1 i { display: inline-block; width: 16px; height: 16px; position: absolute; top: 0px; left: 2px; }
+
+.register .container .zc .zc_l li .p10 { position: absolute; top: 35px; left: 162px; width: 190px; height: 22px; background: #FFF0C0; border-radius: 3px; font-size: 12px; color: #FF0000; line-height: 22px; text-align: left; display: none; }
+
+.register .container .zc .zc_l li .d2 { position: absolute; top: 35px; left: 162px; display: none; }
+
+.register .container .zc .zc_l li .psw2 { display: none; }
+
+.register .container .zc .zc_l li .psw3 { display: none; }
+
+.register .container .zc .zc_l li .strength { height: 22px; float: left; position: absolute; left: 162px; top: 35px; }
+
+.register .container .zc .zc_l li .strength .str { width: 55px; margin: 1px; text-align: center; display: none; }
+
+.register .container .zc .zc_l li .strength .str:nth-child(1) { background: #fb9e10; }
+
+.register .container .zc .zc_l li .strength .str:nth-child(2) { background: #ccc; }
+
+.register .container .zc .zc_l li .strength .str:nth-child(3) { background: #ccc; }
+
+.register .container .zc .zc_l li:nth-child(5) input { width: 126px; }
+
+.register .container .zc .zc_l li:nth-child(5) span { display: inline-block; border: 1px solid #ccc; height: 30px; vertical-align: top; line-height: 33px; width: 110px; border-radius: 5px; text-align: center; background: #fff0c0; color: #f60; margin-right: 27px; }
+
+.register .container .zc .zc_l li:nth-child(6) { text-align: left; }
+
+.register .container .zc .zc_l li:nth-child(6) .xieyi { margin-left: 167px; }
+
+.register .container .zc .zc_l li:nth-child(6) .agreement-text { display: inline-block; margin-bottom: 10px; }
+
+.register .container .zc .zc_l li:nth-child(6) .submit { display: inline-block; width: 227px; height: 36px; background: #FF5A00; color: white; margin-bottom: 28px; margin-left: 167px; }
+
+.register .container .zc .zc_l li:nth-child(6) .consult { font-size: 12px; margin-bottom: 5px; padding-left: 167px; text-align: left; }
+
+.register .container .zc .zc_l .fs { text-align: center; }
+
+.register .container .zc .zc_l .fs li { margin-bottom: 0px; height: 24px; }
+
+.register .container .zc .zc_l .fs a { display: inline-block; width: 24px; height: 24px; background: #000; margin-right: 10px; }
+
+.register .container .zc .zc_l .fs li:nth-child(1) a:nth-child(1) { margin-left: 167px; }
 
 .register .container .dl { height: 432px; background: #fff; border: 1px solid #ccc; display: none; }
 

@@ -51,15 +51,98 @@
             .qieh{overflow:hidden;
                 li{
                     height: 39px;float:left;width:242px;background: #F8F8F8;border:1px solid #ccc;
-                    &:nth-child(1){margin-left:177px;text-align:center;line-height: 39px;
-                        color:#f90;
+                    &:nth-child(1){margin-left:177px;text-align:center;line-height: 39px;position:relative;background: #fff;
+                        a{color:#F60;}
+                        .icon-zhuce{
+                            display:block;width:30px;height:30px;position:absolute;z-index:10000;left:76px;top:0px;color:#F60;
+                        
+                        }
                     }
-                    &:nth-child(2){margin-left:10px;text-align:center;line-height: 39px;
+                    &:nth-child(2){margin-left:10px;text-align:center;line-height: 39px;position:relative;
+                         .icon-denglu{
+                            display:block;width:30px;height:30px;position:absolute;z-index:10000;left:76px;top:0px;
+                        
+                        }
                     }
                 }
             }
             .zc{
-                height:532px;background:#fff;border:1px solid #ccc;
+                height:532px;background:#fff;border:1px solid #ccc;padding-top:40px;
+                .zc_l{
+                    width:440px;float:left;text-align:right;
+                    .typeahead{
+                            display:inline-block;width:275px;height:33px;border:1px solid #ccc;
+                        }
+                    li{margin-bottom:28px;font-size:14px;font-weight:none;position:relative;
+                        .p1{
+                            position:absolute;top:35px;left:162px;width:190px;height:22px;background: #FFF0C0;border-radius:3px;font-size:12px;color:#FF0000;text-align:center;line-height: 22px;display:none;
+                            i{
+                                display:inline-block;width:16px;height: 16px;position:absolute;top:0px;left:2px;
+                            }
+                        }
+                        .p10{
+                            position:absolute;top:35px;left:162px;width:190px;height:22px;background: #FFF0C0;border-radius:3px;font-size:12px;color:#FF0000;line-height: 22px;text-align:left;display:none;
+                        }
+                        .d2{
+                            position:absolute;top:35px;left:162px;display:none;
+                        }
+                        .psw{
+                            
+                        }
+                        .psw2{
+                            display:none;
+                        }
+                        .psw3{
+                           display:none;
+                        }
+                        .strength{
+                           height:22px;float:left;position:absolute;left:162px;top:35px;
+                            .str{
+                                width:55px;margin:1px;text-align:center;display:none;
+                                &:nth-child(1){
+                                    background: #fb9e10;
+                                }
+                                &:nth-child(2){
+                                    background: #ccc;
+                                }
+                                &:nth-child(3){
+                                    background: #ccc;
+                                }
+                            }
+                        }
+                    }
+                     li:nth-child(5){
+                        input{width:126px;
+                            
+                        }
+                        span{display:inline-block;border:1px solid #ccc;height:30px;vertical-align:top;line-height:33px;width:110px;border-radius:5px;text-align:center;background:rgb(255,240,192);color:#f60;margin-right:27px;}
+
+                    }
+                    li:nth-child(6){
+                        text-align:left;
+                        .xieyi{margin-left:167px;}
+                        .agreement-text{
+                            display:inline-block;margin-bottom:10px;
+                        }
+                        .submit{
+                            display:inline-block;width:227px;height:36px;background: #FF5A00;color:white;margin-bottom:28px;margin-left:167px;
+                        }
+                        .consult{font-size:12px;margin-bottom:5px;padding-left:167px;text-align:left;}
+                    }
+                    .fs{text-align:center;
+                        li{;margin-bottom:0px;height:24px;}
+                        a{display:inline-block;width:24px;height:24px;background: #000;margin-right:10px;}
+                        li:nth-child(1){
+                            a{
+                           
+                        &:nth-child(1){
+                            margin-left:167px;
+                        }
+                        }
+                     }
+                    }
+                }
+                
                
             }
             .dl{

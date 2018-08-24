@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8" />
     <title>注册页面</title>
+    <style type="text/css">
+        .register .container .zc .zc_l .typeahead.active{border:1px solid #f60;}
+    </style>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/register.css" />
-    <script src="../js/common.js" type="text/javascript"></script>
-    <script src="../js/jquery-3.2.1.js" type="text/javascript"></script>
-    <script src="../js/register.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../iphone_con/font_sc1ed7kxqua/iconfont.css" />
+
+    
 </head>
 <body>
         <div class="top_h">
@@ -53,17 +56,89 @@
                 <ul class="qieh">
                     <li>
                         <a href="#">注册</a>
-                        <i></i>
+                        <i class="iconfont icon-zhuce"></i>
                     </li>
                     <li>
                         <a href="#">登录</a>
-                        <i></i>
+                        <i class="iconfont icon-denglu"></i>
                     </li>
                 </ul>
-                <div class="zc">
-                    
+                <div class="zc form">
+                    <ul class="zc_l">
+                        <li class="z1">
+                           <label for="username">手机号：</label>
+                           <input type="text" data-provide="typeahead" id="username" name="username" placeholder="请填入手机号" class="typeahead">
+                            <p class="number p1"><i><img src="../img/onError.gif" alt="" /></i><span>手机格式不对，请重新输入!</span></p>
+                            <div class="d2 img_f">
+                                 <b><img src="../img/onSuccess.gif"/></b>
+                           </div>
+                        </li>
+                        <li class="z2">
+                            <label for="password">请设置密码：</label>
+                           <input type="password" data-provide="typeahead" id="password" name="password" placeholder="请填入密码" class="typeahead">
+                            <p class="password p1 ps1"><i><img src="../img/onError.gif" alt="" /></i><span>密码长度限制为6-20位字符</span></p>
+                            <p class="password p1 p3"><i><img src="../img/onError.gif" alt="" /></i><span>密码两旁不能有空符号</span></p>
+                            <div class="d2 d2-p psw">
+                                 <b><img src="../img/onSuccess.gif"/><span>密码强度：弱</span></b>
+                           </div>
+                           <div class="d2 d2-p psw2">
+                                 <b><img src="../img/onSuccess.gif"/><span>密码强度：中</span></b>
+                           </div>
+                           <div class="d2 d2-p psw3">
+                                 <b><img src="../img/onSuccess.gif"/><span>密码强度：强</span></b>
+                           </div>
+                           <ul class="strength">
+                               <li class="str fl" data-name="ruo">弱</li>
+                               <li class="str fl" data-name="zhong">中</li>
+                               <li class="str fl" data-name="qiang">强</li>
+                           </ul>
+                            
+                        </li>
+                        <li class="z3">
+                            <label for="sure">请确认密码：</label>
+                           <input type="password" data-provide="typeahead" id="sure" name="password2" placeholder="请再次填写密码" class="typeahead">
+                           <p class="a_password p1"><i><img src="../img/onError.gif" alt="" /></i><span>重复密码不能为空，请确认</span></p>
+                           <p class="a_password p10"><i><img src="../img/onError.gif" alt="" /></i><span>两次密码不一致</span></p>
+                           <div class="d2">
+                           <div class="d2">
+                                <b><img src="../img/onSuccess.gif"/></b>
+                            </div>
+
+                        </li>
+                        <li class="z4">
+                            <label for="usernames">点击验证：</label>
+                           <input type="text" data-provide="typeahead" id="usernames" name="usernames" placeholder="" class="typeahead">
+                        </li>
+                        <li class="z5">
+                            <label for="usernamed">短信验证码：</label>
+                           <input type="text" data-provide="typeahead" id="usernamed" name="usernamed" placeholder="" class="typeahead">
+                           <a href="#"><span>获取手机验证码</span></a>
+                        </li>
+                        <li class="z6">
+                            <div class="xieyi">
+                                <input type="checkbox" id="agreement" name="agreement" class="checkbox" checked="checked" />
+                                <label for="agreement">
+                                        <p class="agreement-text">阅读并同意<a href="http://www.muyingzhijia.com/help/agreement.aspx" target="_blank">"母婴之家网站用户协议"</a></p>
+                                </label>
+
+
+                            </div>
+                            <button class="submit">提交注册</button>
+                            <p class="consult">使用合作网站账号登录母婴之家：</p>
+                            <ul class="fs">
+                                <li class="f1 fl"><a href="#"><img src="../img/xinlang.png" alt="" /></a></li>
+                                <li class="f2 fl"><a href="#"><img src="../img/zhifubao.png" alt="" /></a></li>
+                                <li class="f3 fl"><a href="#"><img src="../img/qq.png" alt="" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="zc_r fl" style="margin-left:120px">
+                       <a href="#">
+                           <img src="../img/zc.jpg" alt="" />
+                       </a> 
+                    </div>
                 </div>
-                <div class="dl">
+                <div class="dl form">
                     
                 </div>
             </div>
@@ -93,5 +168,9 @@
             </div>
             </div>
         </div>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="../js/register.js" type="text/javascript"></script>
+
 </body>
 </html>
