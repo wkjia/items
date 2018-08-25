@@ -3,6 +3,7 @@
     //引入conect.php
     include 'conect.php';
 
+
    /*
    接口功能：用户注册
 
@@ -11,14 +12,14 @@
             username
             password
     */
-    $username = isset($_POST['username'])?$_POST['username']:null;
-    $password = isset($_POST['password'])?$_POST['password']:null;
+    $number = isset($_GET['number'])?$_GET['number']:null;
+    $password = isset($_GET['password'])?$_GET['password']:null;
     
      $conn ->set_charset('utf8');
 
-    $sql = "insert into sign_data(password,username) value('$password','$username')";
+    $sql = "insert into sign_data(number,password) value('$number',$password)";
 
-    var_dump($sql);
+
 
     //执行sql语句//查询结果集
     $result = $conn->query($sql);
