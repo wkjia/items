@@ -23,16 +23,8 @@
            die("连接失败: " . $conn->connect_error);
         };
 
-        //查询前设置编码，防止输出乱码
-            $conn ->set_charset('utf8');
 
-        //执行sql语句，用于查询结果集
-        
-        $sql = "select username,password from sign_data";
-
-        //获取查询结果集  //num_rows保存查询到的记录数量
-        $result = $conn->query($sql);
-      
+ 
       /*  
        //使用查询结果集
         //得到数组

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.container { width: 1238px; }
+
+.bigbox #theme .container { background: #ccc; }
+
+.bodyCon { height: 30px; line-height: 30px; color: #666666; font-family: 宋体; padding: 5px 0px; }
+
+.bodyCon .topNav a { color: #333; }

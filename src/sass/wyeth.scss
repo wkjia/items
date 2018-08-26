@@ -1,0 +1,120 @@
+
+.gdl dl:hover{
+        box-shadow:0px 1px 15px #e7e7e7;
+        background: #fffffd;
+        text-decoration:none;
+}
+.gdl{
+    width:197px;height:300px;background: #fff;font-size: 12px;
+    line-height: 18px;
+    p{
+        padding-top: 5px;
+    }
+    dt{
+        img{
+            border: 0;
+        }
+    }
+    dl{
+        float: left;
+        padding: 5px;
+        width: 160px;
+        margin: 10px 13px 0 14px;
+        display: inline;
+        height: 280px;
+        background: #fff;
+
+    }
+    dd{
+        .goods_name {
+            height: 53px;
+            overflow: hidden;
+    }
+        .price_now {
+            color: #e60000;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        p{
+            .btn_s a, .btn_m a, .btn_b a {
+                            padding-right: 8px;
+                            margin-right: -5px;
+                            font-weight: 700;
+                            display: inline-block;
+                            // color: #fff;
+                            text-decoration: none;
+                            font-size: 12px;
+                        }
+            .btn_m_o a {
+                background-position: right -30px;
+                font-weight: 700;
+                }
+            .btn_s a, .btn_m a, .btn_b a {
+                padding-right: 8px;
+                margin-right: -5px;
+                display: inline-block;
+                text-decoration: none;
+                font-size: 12px;
+            }
+            }
+        }
+    }
+
+.bigbox #theme .container .th2{
+        border: 1px solid #d3d3d3;
+        margin-bottom: 10px;
+        box-shadow: 5px 9px 42px #e4e4e4;
+        font-size:12px;
+    .hd{
+        background: #f8f8f8;
+        padding-left: 10px;
+        height: 28px;
+        border-bottom: 1px solid #dedede;
+        line-height: 28px;
+        font-size: 12px;
+    }
+
+    dl{
+        padding: 6px 10px 7px 20px;
+        width: 166px;
+        border-bottom: 1px dashed #ebebeb;
+        overflow: hidden;
+        position: relative;
+        }
+    .n01 {
+    background: #e60000;
+    }
+    
+}
+
+.goods_sort .num {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    background: #b1b1b1;
+    margin-top: 4px;
+    width: 12px;
+    height: 12px;
+    font: 800 9px/12px Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 800;
+    font-stretch: normal;
+    font-size: 9px;
+    line-height: 12px;
+    border-radius: 4px;
+}
+.goods_sort span {
+    display: block;
+}
+.goods_sort dd img {
+    float: left;
+    /* border: 1px solid #dedede; */
+    margin-right: 10px;
+}
