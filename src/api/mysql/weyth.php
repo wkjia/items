@@ -29,6 +29,7 @@
    
 
     //使用查询结构集..
+    //得到数组
     $row = $result->fetch_all(MYSQLI_ASSOC);
 
     //截取所要的数据长度

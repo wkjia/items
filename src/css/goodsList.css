@@ -1,8 +1,83 @@
-@charset "UTF-8";
 .container { width: 1238px; }
+
+strong, b { font-weight: bold; }
+
+.conTopConBox .productinfo { font-size: 16px; color: #FF5c00; padding-bottom: 5px; font-weight: bold; }
+
+.specLeftT, .specRightT, .specLeftF, .specRightF, .salePromotionType dt, .choose_num_ul a, .computing_act input, .prom_act a, .remind_ul li i, .shopping_car, .product_inform, .tb-msg .tb-stop, .certified_div dl dt i, .smile_face, .star_rate, .product_plus_icon, .buy_suit, .rank_Num, .purchase, .btn-comment, .L-kuai, .jinghua, .p_star, .dianzan li, .see_consult_p a.qqIcon, .see_consult_p a.publishIcon, .purchase_bottom, .shopping_coming, .shopping_finish, .shopping_going, .shopping_over { background-image: url(../img/icon.png); background-repeat: no-repeat; }
 
 .bigbox #theme .container { background: #ccc; }
 
-.bodyCon { height: 30px; line-height: 30px; color: #666666; font-family: 宋体; padding: 5px 0px; }
+.bodyCon { width: 1200px; margin: 0 auto; }
 
-.bodyCon .topNav a { color: #333; }
+.bodyCon .borderf1 { border: 1px solid #f1f1f1; }
+
+.bodyCon .borderf1 .conTopLeftBox { position: relative; float: left; width: 350px; z-index: 2; }
+
+.bodyCon .borderf1 .conTopLeftBox .preview { text-align: center; width: 350px; float: none; position: relative; z-index: 5; }
+
+.bodyCon .borderf1 .conTopLeftBox .preview .jqzoom, .bodyCon .borderf1 .conTopLeftBox .preview .jqzoom img { width: 350px; height: 350px; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec { position: relative; width: 350px; height: 64px; overflow: hidden; zoom: 1; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .arrowbox { width: 22px; height: 64px; cursor: pointer; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specLeftT { background-position: -195px -330px; left: 4px; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specLeftT, .bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specRightT, .bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specLeftF, .bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specRightF { position: absolute; width: 12px; float: left; height: 21px; top: 20px; cursor: pointer; background-image: url(../img/icon.png); background-repeat: no-repeat; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .specList { width: 320px; height: 57px; position: absolute; text-align: left; overflow: hidden; zoom: 1; top: 0px; left: 19px; display: inline; float: left; margin-left: 2px; margin-top: 4px; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .specList ul { position: absolute; width: 320px; left: 2px; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .specList ul .specList ul li { width: 60px; display: inline; float: left; margin-right: 2px; cursor: pointer; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .specList ul .specList ul li img { width: 50px; height: 50px; border: 1px solid #f1f1f1; padding: 2px; margin-bottom: 1px; display: block; }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .arrowbox { width: 22px; height: 64px; /* cursor: pointer; */ }
+
+.bodyCon .borderf1 .conTopLeftBox .spec .arrowbox .specRightT { background-position: -212px -330px; right: 4px; }
+
+.bodyCon .borderf1 .conTopLeftBox .sharebox { width: 327px; padding-top: 12px; padding-left: 23px; position: relative; left: 0; top: 0; }
+
+.bodyCon .borderf1 .conTopConBox { border-left: 1px solid #f1f1f1; border-right: 1px solid #f1f1f1; float: left; position: relative; padding: 15px 10px 10px; min-height: 450px; z-index: 1; width: 635px; }
+
+.bodyCon .borderf1 .conTopConBox h1 { color: #333; font-size: 16px; margin-bottom: 3px; font-weight: bold; }
+
+.bodyCon .borderf1 .conTopConBox h1 a { color: #666; }
+
+.bodyCon .borderf1 .conTopConBox h1 a .conTopConBox .productinfo { font-size: 16px; color: #FF5c00; padding-bottom: 5px; font-weight: bold; }
+
+.bodyCon .borderf1 .conTopConBox h1 a .bt_activity { width: 159px; height: 27px; background-image: url(../img/morepro.jpg); display: inline-block; vertical-align: bottom; }
+
+.bodyCon .borderf1 .conTopConBox .fahuo-cang { color: #999; }
+
+.bodyCon .borderf1 .conTopConBox .fahuo-cang i { display: inline-block; width: 0; height: 0; border-top: 8px solid transparent; border-left: 15px solid #f70; border-bottom: 8px solid transparent; vertical-align: -4px; margin-right: 5px; }
+
+.bodyCon .borderf1 .conTopConBox #summary { float: left; width: 635px; }
+
+.bodyCon .borderf1 .conTopConBox #summary li { padding-top: 7px; padding-bottom: 3px; }
+
+.bodyCon .borderf1 .conTopConBox #summary li .sx_dt { width: 70px; float: left; color: #999; text-align: center; padding-right: 10px; }
+
+.bodyCon .borderf1 .conTopConBox #summary li .pdt5 { padding-top: 5px; }
+
+.bodyCon .borderf1 .conTopConBox #summary li .sx_dd { float: left; }
+
+#summary-price .p-price { height: 27px; line-height: 27px; font-family: tahoma; color: #DE1010; font-size: 20px; font-weight: bold; }
+
+#summary-price .sx_dd del { display: none; }
+
+.bdbtm { border-bottom: 1px dotted #ccc; }
+
+.sale_prom { margin-bottom: 10px; }
+
+.hide { display: none; }
+
+.i_buy_div { border-top: 1px dotted #ccc; padding-top: 10px; padding-bottom: 8px; zoom: 1; }
+
+.pdt10 { padding-top: 10px; }
+
+#amountbeyond { padding-top: 0; }
+
+.tb-msg { overflow: hidden; zoom: 1; }
